@@ -1,0 +1,97 @@
+.kappe{
+    width: 250px;
+    float: left;
+    box-shadow: 6px 0px 7px 2px rgba(0, 0, 0, .2);
+}
+.kappe h1{
+	text-align: center;
+	margin-bottom: 0;
+	margin-top: 0;
+	font-size: 34px;
+	font-family: 'Mina', sans-serif;
+}
+.kappe p{
+ text-align: center;
+ margin-top: 0;
+ color: #0B3B39;
+}
+.kappe1{
+	margin-top: 20px;
+    width: 100%;
+}
+ .kappe a{
+	font-size: 17px;
+    color: white;
+    text-decoration: none;
+}
+ .kappe a:hover{
+	color:#FF0040;
+}
+.kappe1 ul{
+    margin-bottom: 0;
+    padding: 0px;
+    text-align: right; 
+    background-color: #0B3B39;
+}
+.kappe li{
+    padding: 8px;
+    font-family: 'Mina', sans-serif;
+}
+ .kappe li:hover{
+	background-color: #BDBDBD;
+}
+hr{
+	margin: 0;
+	border: 0.5px solid black;
+}
+.filter{
+	background-color: #071418;
+}
+.filter p{
+	color: #FF0040;
+	font-size: 20px;
+	text-align: right;
+	margin-right: 20px;
+	padding-top: 10px;
+}
+.filter ul{
+	margin: 0;
+    text-align: right;
+    list-style: none;
+    color: #BDBDBD;
+}
+.filter li{
+	 box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.filter a{
+	color: #D8D8D8;
+}
+.filter li:hover{
+	background-color:#071418;
+}
+.ikonka{
+	 height: 100%;
+     background: #071418;
+     display: flex;
+     justify-content: flex-end;
+}
+.ikonka img{
+	width: 20px;
+	height: 20px;
+}
+.ikonka img:hover{
+	background: #FF0040;
+}
+.all p{
+	color: #D8D8D8;
+	font-size: 13px;
+	padding-bottom: 100px;
+}
+.right{
+	margin:0;
+}
+.textYolk{
+	text-align: center;
+	
+}
