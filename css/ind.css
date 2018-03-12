@@ -1,31 +1,33 @@
+body{
+	margin: 0;
+}
 .kappe{
     width: 250px;
     float: left;
-    box-shadow: 6px 0px 7px 2px rgba(0, 0, 0, .2);
+    box-shadow: 10px 0px 6px 0px rgba(0, 0, 0, .2);
 }
 .kappe h1{
 	text-align: center;
 	margin-bottom: 0;
 	margin-top: 0;
-	font-size: 34px;
+	font-size: 32px;
 	font-family: 'Mina', sans-serif;
 }
 .kappe p{
  text-align: center;
- margin-top: 0;
+ margin: 0;
  color: #0B3B39;
 }
 .kappe1{
-	margin-top: 20px;
     width: 100%;
 }
  .kappe a{
-	font-size: 17px;
+	font-size: 15px;
     color: white;
     text-decoration: none;
 }
  .kappe a:hover{
-	color:#FF0040;
+	color:#8A0829;
 }
 .kappe1 ul{
     margin-bottom: 0;
@@ -34,7 +36,7 @@
     background-color: #0B3B39;
 }
 .kappe li{
-    padding: 8px;
+    padding: 5px;
     font-family: 'Mina', sans-serif;
 }
  .kappe li:hover{
@@ -48,7 +50,7 @@ hr{
 	background-color: #071418;
 }
 .filter p{
-	color: #FF0040;
+	color:#8A0829;
 	font-size: 20px;
 	text-align: right;
 	margin-right: 20px;
@@ -62,8 +64,9 @@ hr{
 }
 .filter li{
 	 box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	 margin-left:-40px;
+	 width: 237px;
 }
-
 .filter a{
 	color: #D8D8D8;
 }
@@ -72,26 +75,47 @@ hr{
 }
 .ikonka{
 	 height: 100%;
-     background: #071418;
+     background: #8A0829;
      display: flex;
      justify-content: flex-end;
+}
+.all{
+	background-color: #8A0829;
+	padding-bottom: 30px;
 }
 .ikonka img{
 	width: 20px;
 	height: 20px;
 }
-.ikonka img:hover{
-	background: #FF0040;
-}
 .all p{
 	color: #D8D8D8;
 	font-size: 13px;
-	padding-bottom: 100px;
+	padding: 0;
+	margin: 0;
 }
 .right{
 	margin:0;
 }
 .textYolk{
 	text-align: center;
-	
+}
+.textYolk h2{
+	font-size: 40px;
+	font-family: 'Mina', sans-serif;
+	margin: 0;
+}
+.analyst{
+	max-width: 900px;
+	display: flex;
+}
+.analyst img{
+	width: 250px;
+	height: 250px;
+	box-shadow: 0 0 7px;
+}
+.analyst p{
+	margin:0px 25px;
+	font-size: 17px;
+	color: #0B3B39;
+	font-family: 'Rammetto One', cursive;
 }
