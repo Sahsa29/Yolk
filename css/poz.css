@@ -47,6 +47,12 @@
 	.log p{
 		margin-left: 15px;
 	}
-
-	
+}
+@media only screen and (max-width :625px) { 
+	input{
+	width: 250px;
+}
+textarea{
+	width: 250px;
+}
 }
