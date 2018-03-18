@@ -167,21 +167,26 @@ hr{
 	}
 .about{
 	background-color: #BA9F7F;
-	display: flex;
+	padding-bottom: 35px;
 }
 .about img{
+	float: left;
+	margin: 0;
 	width: 250px;
 	height: 250px;
-	margin-top: 80px;
-	margin-left: 40px;
+	margin: 85px 10px 65px 25px;
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 .about1{
-	text-align: center;
-	margin-left: 10px;
 	margin-right: 40px;
 }
+.about1 h2{
+	text-align: center;
+	margin-top: 0;
+	padding-top: 35px;
+}
 .about1 p{
+	margin-bottom: 0;
 	font-family: 'Mina', sans-serif;
 }
 .late{
@@ -218,9 +223,9 @@ hr{
 }
 .workers1{
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 	justify-content: space-around;
-	flex-wrap: wrap;
 	margin: 10px;
 	text-align: center;
 }

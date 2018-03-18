@@ -1,0 +1,52 @@
+@media only screen and (max-width :930px) { 
+	.kappe{
+		width: 130px;
+	}
+	.filter li{
+		margin-left: -140px;
+	}
+	.right{
+	padding-left: 150px;
+	}
+	.blok{
+	padding: 0 20px;
+	}
+	.cofe h2{
+		font-size: 40px;
+		text-align: center;
+	}
+	.art p{
+		font-size: 13px;
+	}
+	.about img{
+		width: 150px;
+		height: 150px;
+	}
+	.about1 p{
+		font-size: 13px;
+	}
+}
+@media only screen and (max-width :669px) { 
+	.article h3{
+		display: none;
+	}
+	.article p{
+		padding: 10px;
+	}
+	.open55{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.late{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.log img{
+		margin-top: 45px;
+	}
+	.log p{
+		margin-left: 15px;
+	}
+
+	
+}
