@@ -56,3 +56,11 @@ textarea{
 	width: 250px;
 }
 }
+@media only screen and (max-width :490px) { 
+	input{
+	width: 180px;
+}
+textarea{
+	width: 180px;
+}
+}
